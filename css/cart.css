@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    padding: 30px 56px;
+    display: flex;
+    gap: 60px;
+}
+
+.menu-container-icon{
+    background-color: #000;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    border-radius: 30px;
+    max-height: 809px;
+}
+
+.menu-container-icon img{
+    padding: 30px;
+    cursor: pointer; 
+}
+
+.menu-container-icon img:hover,img:active{
+    background-color: #F1D5BB;  
+}
+
+.whole-cart-container{
+    display: flex;
+    gap: 80px;
+    border-radius: 20px;
+}
+
+
+.cart-container{
+    background-color: #F1D5BB;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-menu-item{
+    background-color: #F1D5BB;
+    padding: 37px 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart-menu-item-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+}
+
+.cart-menu-item-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-container-total {
+    background-color: #F1D5BB;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 200px;
+}
+
+.quantity-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-quantity{
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.quantity-outer img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.quantity-inner img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.cancle{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancle img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.subtotal-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.container{
+    background-image: url("../img/restaurant\ .png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 15%;
+   color: white;
+   text-align: center;
+}
+
+.content p:nth-child(1){
+    font-size: 60px;
+    line-height: 75.3px;
+    font-weight: 400;
+    letter-spacing:  normal;
+}
+
+.content p:nth-child(2){
+    font-size: 25px;
+    line-height: 31.38px;
+    font-weight: 100;
+    padding-top: 49px;
+}
+
+.content-btn button{
+    background-color:#ffffff;
+    border: none;
+    padding: 21px 41px;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 35px 10px;
+}
+
+.content-btn button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
